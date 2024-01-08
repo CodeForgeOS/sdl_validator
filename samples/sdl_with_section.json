@@ -1,0 +1,74 @@
+{
+    "@context": "cgi:itc:sdl:context;1",
+    "@id": "survey123",
+    "title": "Post-Event Feedback Survey",
+    "description": "We would love to hear your thoughts on our recent tech event!",
+    "sections": [
+      {
+        "title": "Event Experience",
+        "questions": [
+          {
+            "@type": "Question",
+            "questionText": "Overall, how would you rate the tech event?",
+            "questionType": "Rating",
+            "scale": 5,
+            "isRequired": true
+          },
+          {
+            "@type": "Question",
+            "questionText": "Which aspects of the event did you find most valuable?",
+            "questionType": "Checkbox",
+            "options": ["Keynote Speeches", "Workshops", "Networking Opportunities", "Exhibitions"],
+            "isRequired": false
+          },
+          {
+            "@type": "Question",
+            "questionText": "What was your favorite session or speaker?",
+            "questionType": "Text",
+            "isRequired": false
+          }
+        ]
+      },
+      {
+        "title": "Logistics and Organization",
+        "questions": [
+          {
+            "@type": "Question",
+            "questionText": "How well organized was the event?",
+            "questionType": "Likert Scale",
+            "options": ["Very Poorly", "Poorly", "Neutral", "Well", "Very Well"],
+            "isRequired": true
+          },
+          {
+            "@type": "Question",
+            "questionText": "Did you encounter any issues with the event venue or facilities?",
+            "questionType": "Binary",
+            "isRequired": true
+          }
+        ]
+      },
+      {
+        "title": "Future Events",
+        "questions": [
+          {
+            "@type": "Question",
+            "questionText": "What topics would you like to see covered in future tech events?",
+            "questionType": "Text",
+            "isRequired": false
+          },
+          {
+            "@type": "Question",
+            "questionText": "Would you attend another event organized by us in the future?",
+            "questionType": "Binary",
+            "isRequired": true
+          },
+          {
+            "@type": "Question",
+            "questionText": "Any additional comments or suggestions?",
+            "questionType": "Text",
+            "isRequired": false
+          }
+        ]
+      }
+    ]
+  }

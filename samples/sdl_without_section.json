@@ -1,0 +1,69 @@
+{
+    "@context": "cgi:itc:sdl:context;1",
+    "@id": "survey123",
+    "title": "General Feedback Survey",
+    "questions": [
+      {
+        "@type": "Question",
+        "questionText": "Please describe your experience with our service:",
+        "questionType": "Text",
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "What is your favorite color?",
+        "questionType": "Single Choice",
+        "options": ["Red", "Blue", "Green", "Yellow"],
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "Select the fruits you like:",
+        "questionType": "Checkbox",
+        "options": ["Apple", "Banana", "Orange", "Grapes"],
+        "isRequired": false
+      },
+      {
+        "@type": "Question",
+        "questionText": "Rate our customer service (1: Poor, 5: Excellent):",
+        "questionType": "Rating",
+        "scale": 5,
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "Do you agree with our terms and conditions?",
+        "questionType": "Binary",
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "On a scale of 1 to 10, how would you rate your level of satisfaction with our product?",
+        "questionType": "Slider",
+        "minValue": 1,
+        "maxValue": 10,
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "Select your country of residence:",
+        "questionType": "Dropdown",
+        "options": ["United States", "Canada", "United Kingdom", "Australia", "Other"],
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "How much do you agree with the following statement: 'The customer service was satisfactory'",
+        "questionType": "Likert Scale",
+        "options": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+        "isRequired": true
+      },
+      {
+        "@type": "Question",
+        "questionText": "Select your date of birth:",
+        "questionType": "Date Picker",
+        "isRequired": true,
+        "dateFormat": "YYYY-MM-DD"
+      }
+    ]
+  }

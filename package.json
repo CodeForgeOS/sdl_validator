@@ -1,0 +1,23 @@
+{
+  "name": "@codeforgeos/sdl_validator",
+  "version": "1.0.1",
+  "description": "A tool for validating Survey Definition Language (SDL) documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["SDL", "survey", "validation", "json"],
+  "author": "Code Forge Open Source",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForgeOS/sdl_validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeForgeOS/sdl_validator/issues"
+  },
+  "homepage": "https://github.com/CodeForgeOS/sdl_validator#readme"
+}
